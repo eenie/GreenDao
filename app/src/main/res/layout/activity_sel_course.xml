@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eenie.mob.greendao.SelCourseActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="张三"
+        android:id="@+id/txtUser"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:id="@+id/noSelList"
+        android:background="#209FFF"></ListView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:id="@+id/selList"
+        android:background="#BB9836"></ListView>
+</LinearLayout>
