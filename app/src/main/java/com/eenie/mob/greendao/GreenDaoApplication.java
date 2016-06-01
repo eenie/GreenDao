@@ -19,7 +19,7 @@ public class GreenDaoApplication extends Application {
     private DaoSession daoSession;
     public DaoMaster getDaoMaster() {
         if (daoMaster == null) {
-            DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "school", null);//创建数据库
+            DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "orivon", null);//创建数据库
             SQLiteDatabase db = helper.getWritableDatabase();
             daoMaster = new DaoMaster(db);
         }

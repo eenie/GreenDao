@@ -1,0 +1,3104 @@
+{
+    "info": {
+        "paperId": "138",
+        "name": "ios",
+        "pass": "20",
+        "state": "1",
+        "modified": "2016-03-11 17:44:46",
+        "points": 50,
+        "extra": {
+            "questions": {
+                "6007": {
+                    "points": "10",
+                    "info": {
+                        "questionId": "6007",
+                        "type": "singleAnswer",
+                        "state": "1",
+                        "modified": "2016-03-21 18:00:50",
+                        "extra": {
+                            "load": {
+                                "+/exam/components/richtext/js/main.js": "js",
+                                "+/exam/components/input/js/main.js": "js",
+                                "+/exam/questions/singleAnswer/css/show.css": "css"
+                            },
+                            "form": {
+                                "87249": {
+                                    "questionDataId": "87249",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                "87250": {
+                                    "questionDataId": "87250",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                },
+                                "87251": {
+                                    "questionDataId": "87251",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "2",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                },
+                                "87252": {
+                                    "questionDataId": "87252",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "3",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                }
+                            },
+                            "disable": {
+                                "stemTitle": [
+                                    {
+                                        "questionDataId": "87240",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "stemTitle",
+                                        "pos": "0",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题描述",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "optionsTitle": [
+                                    {
+                                        "questionDataId": "87242",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "optionsTitle",
+                                        "pos": "2",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题选项",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analyticalTitle": [
+                                    {
+                                        "questionDataId": "87247",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analyticalTitle",
+                                        "pos": "7",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "答题解析"
+                                        }
+                                    }
+                                ],
+                                "analytical": [
+                                    {
+                                        "questionDataId": "87248",
+                                        "type": "form",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analytical",
+                                        "pos": "8",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "单选题"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "remarkers": ""
+                    },
+                    "form": {
+                        "87249": {
+                            "questionDataId": "87249",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        "87250": {
+                            "questionDataId": "87250",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        },
+                        "87251": {
+                            "questionDataId": "87251",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "2",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        },
+                        "87252": {
+                            "questionDataId": "87252",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "3",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        }
+                    },
+                    "disable": {
+                        "stemTitle": [
+                            {
+                                "questionDataId": "87240",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "stemTitle",
+                                "pos": "0",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题描述",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "optionsTitle": [
+                            {
+                                "questionDataId": "87242",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "optionsTitle",
+                                "pos": "2",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题选项",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analyticalTitle": [
+                            {
+                                "questionDataId": "87247",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analyticalTitle",
+                                "pos": "7",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "答题解析"
+                                }
+                            }
+                        ],
+                        "analytical": [
+                            {
+                                "questionDataId": "87248",
+                                "type": "form",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analytical",
+                                "pos": "8",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "单选题"
+                                }
+                            }
+                        ]
+                    },
+                    "node": {
+                        "info": {
+                            "questionId": "6007",
+                            "type": "singleAnswer",
+                            "state": "1",
+                            "modified": "2016-03-21 18:00:50",
+                            "remarkers": ""
+                        },
+                        "data": {
+                            "stem": [
+                                {
+                                    "questionDataId": "87241",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "stem",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "hello()"
+                                    }
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "questionDataId": "87243",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "3",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:1"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87244",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "4",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:2"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87245",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "5",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:3"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87246",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "6",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:4"
+                                    }
+                                }
+                            ],
+                            "analyticalTitle": [
+                                {
+                                    "questionDataId": "87247",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analyticalTitle",
+                                    "pos": "7",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "答题解析"
+                                    }
+                                }
+                            ],
+                            "analytical": [
+                                {
+                                    "questionDataId": "87248",
+                                    "type": "form",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analytical",
+                                    "pos": "8",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "单选题"
+                                    }
+                                }
+                            ],
+                            "option": [
+                                {
+                                    "questionDataId": "87249",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87250",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87251",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "2",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87252",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "3",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                }
+                            ],
+                            "synopsis": [
+                                {
+                                    "questionDataId": "87253",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "1"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87254",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "2"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87255",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "2",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "3"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87256",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "3",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "4"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "6008": {
+                    "points": "10",
+                    "info": {
+                        "questionId": "6008",
+                        "type": "binaryChoice",
+                        "state": "1",
+                        "modified": "2016-01-29 13:33:53",
+                        "extra": {
+                            "load": {
+                                "+/exam/components/richtext/js/main.js": "js",
+                                "+/exam/components/input/js/main.js": "js",
+                                "+/exam/questions/binaryChoice/css/show.css": "css"
+                            },
+                            "form": {
+                                "87264": {
+                                    "questionDataId": "87264",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                "87265": {
+                                    "questionDataId": "87265",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                }
+                            },
+                            "disable": {
+                                "stemTitle": [
+                                    {
+                                        "questionDataId": "87257",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "stemTitle",
+                                        "pos": "0",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题描述",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "optionsTitle": [
+                                    {
+                                        "questionDataId": "87259",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "optionsTitle",
+                                        "pos": "2",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题选项",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analyticalTitle": [
+                                    {
+                                        "questionDataId": "87262",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analyticalTitle",
+                                        "pos": "5",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "答题解析",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analytical": [
+                                    {
+                                        "questionDataId": "87263",
+                                        "type": "form",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analytical",
+                                        "pos": "6",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "aaa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "remarkers": ""
+                    },
+                    "form": {
+                        "87264": {
+                            "questionDataId": "87264",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        "87265": {
+                            "questionDataId": "87265",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        }
+                    },
+                    "disable": {
+                        "stemTitle": [
+                            {
+                                "questionDataId": "87257",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "stemTitle",
+                                "pos": "0",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题描述",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "optionsTitle": [
+                            {
+                                "questionDataId": "87259",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "optionsTitle",
+                                "pos": "2",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题选项",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analyticalTitle": [
+                            {
+                                "questionDataId": "87262",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analyticalTitle",
+                                "pos": "5",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "答题解析",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analytical": [
+                            {
+                                "questionDataId": "87263",
+                                "type": "form",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analytical",
+                                "pos": "6",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "aaa"
+                                }
+                            }
+                        ]
+                    },
+                    "node": {
+                        "info": {
+                            "questionId": "6008",
+                            "type": "binaryChoice",
+                            "state": "1",
+                            "modified": "2016-01-29 13:33:53",
+                            "remarkers": ""
+                        },
+                        "data": {
+                            "stem": [
+                                {
+                                    "questionDataId": "87258",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "stem",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "hello"
+                                    }
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "questionDataId": "87260",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "3",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:1"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87261",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "4",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:2"
+                                    }
+                                }
+                            ],
+                            "analyticalTitle": [
+                                {
+                                    "questionDataId": "87262",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analyticalTitle",
+                                    "pos": "5",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "答题解析",
+                                        "readonly": true
+                                    }
+                                }
+                            ],
+                            "analytical": [
+                                {
+                                    "questionDataId": "87263",
+                                    "type": "form",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analytical",
+                                    "pos": "6",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "aaa"
+                                    }
+                                }
+                            ],
+                            "option": [
+                                {
+                                    "questionDataId": "87264",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87265",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "radio",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                }
+                            ],
+                            "synopsis": [
+                                {
+                                    "questionDataId": "87266",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "对",
+                                        "readonly": true
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87267",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "错",
+                                        "readonly": true
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "6009": {
+                    "points": "10",
+                    "info": {
+                        "questionId": "6009",
+                        "type": "fillBlankAnswer",
+                        "state": "1",
+                        "modified": "2016-01-29 13:33:40",
+                        "extra": {
+                            "load": {
+                                "+/exam/components/richtext/js/main.js": "js",
+                                "+/exam/components/select/js/main.js": "js",
+                                "+/exam/components/input/js/main.js": "js",
+                                "+/exam/questions/fillBlankAnswer/css/show.css": "css"
+                            },
+                            "form": {
+                                "101723": {
+                                    "questionDataId": "101723",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "input",
+                                        "value": "lgd"
+                                    }
+                                },
+                                "101724": {
+                                    "questionDataId": "101724",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "input",
+                                        "value": "lgd1"
+                                    }
+                                }
+                            },
+                            "disable": {
+                                "attrTitle": [
+                                    {
+                                        "questionDataId": "87268",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "attrTitle",
+                                        "pos": "0",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "判分规则",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "attrBlock": [
+                                    {
+                                        "questionDataId": "87269",
+                                        "type": "block",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "attrBlock",
+                                        "pos": "1",
+                                        "enabled": false,
+                                        "com": "",
+                                        "params": {
+                                            "unique": "attrBlock:1"
+                                        }
+                                    }
+                                ],
+                                "stemTitle": [
+                                    {
+                                        "questionDataId": "87270",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "stemTitle",
+                                        "pos": "2",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题描述",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "optionsTitle": [
+                                    {
+                                        "questionDataId": "87272",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "optionsTitle",
+                                        "pos": "4",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题选项",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analyticalTitle": [
+                                    {
+                                        "questionDataId": "87274",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analyticalTitle",
+                                        "pos": "7",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "答题解析",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analytical": [
+                                    {
+                                        "questionDataId": "87275",
+                                        "type": "form",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analytical",
+                                        "pos": "8",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "aaa"
+                                        }
+                                    }
+                                ],
+                                "ruleText": [
+                                    {
+                                        "questionDataId": "87276",
+                                        "type": "text",
+                                        "pKey": "attrBlock",
+                                        "pPos": "0",
+                                        "key": "ruleText",
+                                        "pos": "0",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "readonly": true,
+                                            "value": ""
+                                        }
+                                    }
+                                ],
+                                "subSubRule": [
+                                    {
+                                        "questionDataId": "87277",
+                                        "type": "form",
+                                        "pKey": "attrBlock",
+                                        "pPos": "0",
+                                        "key": "subSubRule",
+                                        "pos": "1",
+                                        "enabled": false,
+                                        "com": "select",
+                                        "params": {
+                                            "value": [
+                                                "all"
+                                            ],
+                                            "options": {
+                                                "item": "按空算分",
+                                                "all": "全对得分"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "subSubSubRule": [
+                                    {
+                                        "questionDataId": "87278",
+                                        "type": "form",
+                                        "pKey": "attrBlock",
+                                        "pPos": "0",
+                                        "key": "subSubSubRule",
+                                        "pos": "2",
+                                        "enabled": false,
+                                        "com": "select",
+                                        "params": {
+                                            "value": [
+                                                "Default"
+                                            ],
+                                            "options": {
+                                                "Default": "区分答案顺序",
+                                                "ofs": "不区分答案顺序"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "remarkers": ""
+                    },
+                    "form": {
+                        "101723": {
+                            "questionDataId": "101723",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "input",
+                                "value": "lgd"
+                            }
+                        },
+                        "101724": {
+                            "questionDataId": "101724",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "input",
+                                "value": "lgd1"
+                            }
+                        }
+                    },
+                    "disable": {
+                        "attrTitle": [
+                            {
+                                "questionDataId": "87268",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "attrTitle",
+                                "pos": "0",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "判分规则",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "attrBlock": [
+                            {
+                                "questionDataId": "87269",
+                                "type": "block",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "attrBlock",
+                                "pos": "1",
+                                "enabled": false,
+                                "com": "",
+                                "params": {
+                                    "unique": "attrBlock:1"
+                                }
+                            }
+                        ],
+                        "stemTitle": [
+                            {
+                                "questionDataId": "87270",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "stemTitle",
+                                "pos": "2",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题描述",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "optionsTitle": [
+                            {
+                                "questionDataId": "87272",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "optionsTitle",
+                                "pos": "4",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题选项",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analyticalTitle": [
+                            {
+                                "questionDataId": "87274",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analyticalTitle",
+                                "pos": "7",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "答题解析",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analytical": [
+                            {
+                                "questionDataId": "87275",
+                                "type": "form",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analytical",
+                                "pos": "8",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "aaa"
+                                }
+                            }
+                        ],
+                        "ruleText": [
+                            {
+                                "questionDataId": "87276",
+                                "type": "text",
+                                "pKey": "attrBlock",
+                                "pPos": "0",
+                                "key": "ruleText",
+                                "pos": "0",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "readonly": true,
+                                    "value": ""
+                                }
+                            }
+                        ],
+                        "subSubRule": [
+                            {
+                                "questionDataId": "87277",
+                                "type": "form",
+                                "pKey": "attrBlock",
+                                "pPos": "0",
+                                "key": "subSubRule",
+                                "pos": "1",
+                                "enabled": false,
+                                "com": "select",
+                                "params": {
+                                    "value": [
+                                        "all"
+                                    ],
+                                    "options": {
+                                        "item": "按空算分",
+                                        "all": "全对得分"
+                                    }
+                                }
+                            }
+                        ],
+                        "subSubSubRule": [
+                            {
+                                "questionDataId": "87278",
+                                "type": "form",
+                                "pKey": "attrBlock",
+                                "pPos": "0",
+                                "key": "subSubSubRule",
+                                "pos": "2",
+                                "enabled": false,
+                                "com": "select",
+                                "params": {
+                                    "value": [
+                                        "Default"
+                                    ],
+                                    "options": {
+                                        "Default": "区分答案顺序",
+                                        "ofs": "不区分答案顺序"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "node": {
+                        "info": {
+                            "questionId": "6009",
+                            "type": "fillBlankAnswer",
+                            "state": "1",
+                            "modified": "2016-01-29 13:33:40",
+                            "remarkers": ""
+                        },
+                        "data": {
+                            "stem": [
+                                {
+                                    "questionDataId": "87271",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "stem",
+                                    "pos": "3",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "hello({`text:1`})({`text:2`})"
+                                    }
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "questionDataId": "101721",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "5",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:1"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "101722",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "6",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:2"
+                                    }
+                                }
+                            ],
+                            "analyticalTitle": [
+                                {
+                                    "questionDataId": "87274",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analyticalTitle",
+                                    "pos": "7",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "答题解析",
+                                        "readonly": true
+                                    }
+                                }
+                            ],
+                            "analytical": [
+                                {
+                                    "questionDataId": "87275",
+                                    "type": "form",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analytical",
+                                    "pos": "8",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "aaa"
+                                    }
+                                }
+                            ],
+                            "option": [
+                                {
+                                    "questionDataId": "101723",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "input",
+                                        "value": "lgd"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "101724",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "input",
+                                        "value": "lgd1"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "6010": {
+                    "points": "10",
+                    "info": {
+                        "questionId": "6010",
+                        "type": "multipleChoice",
+                        "state": "1",
+                        "modified": "2016-03-29 10:41:27",
+                        "extra": {
+                            "load": {
+                                "+/exam/components/richtext/js/main.js": "js",
+                                "+/exam/components/select/js/main.js": "js",
+                                "+/exam/components/input/js/main.js": "js",
+                                "+/exam/questions/multipleChoice/css/show.css": "css"
+                            },
+                            "form": {
+                                "87293": {
+                                    "questionDataId": "87293",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                "87294": {
+                                    "questionDataId": "87294",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                "87295": {
+                                    "questionDataId": "87295",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "2",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                },
+                                "87296": {
+                                    "questionDataId": "87296",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "3",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                }
+                            },
+                            "disable": {
+                                "attrTitle": [
+                                    {
+                                        "questionDataId": "87280",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "attrTitle",
+                                        "pos": "0",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "判分规则",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "attrBlock": [
+                                    {
+                                        "questionDataId": "87281",
+                                        "type": "block",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "attrBlock",
+                                        "pos": "1",
+                                        "enabled": false,
+                                        "com": "",
+                                        "params": {
+                                            "unique": "attrBlock:1"
+                                        }
+                                    }
+                                ],
+                                "stemTitle": [
+                                    {
+                                        "questionDataId": "87282",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "stemTitle",
+                                        "pos": "2",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题描述",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "optionsTitle": [
+                                    {
+                                        "questionDataId": "87284",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "optionsTitle",
+                                        "pos": "4",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题选项",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analyticalTitle": [
+                                    {
+                                        "questionDataId": "87289",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analyticalTitle",
+                                        "pos": "9",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "答题解析",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analytical": [
+                                    {
+                                        "questionDataId": "87290",
+                                        "type": "form",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analytical",
+                                        "pos": "10",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "多选题"
+                                        }
+                                    }
+                                ],
+                                "ruleText": [
+                                    {
+                                        "questionDataId": "87291",
+                                        "type": "text",
+                                        "pKey": "attrBlock",
+                                        "pPos": "0",
+                                        "key": "ruleText",
+                                        "pos": "0",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "readonly": true,
+                                            "value": ""
+                                        }
+                                    }
+                                ],
+                                "subSubRule": [
+                                    {
+                                        "questionDataId": "87292",
+                                        "type": "form",
+                                        "pKey": "attrBlock",
+                                        "pPos": "0",
+                                        "key": "subSubRule",
+                                        "pos": "1",
+                                        "enabled": false,
+                                        "com": "select",
+                                        "params": {
+                                            "value": [
+                                                "item"
+                                            ],
+                                            "options": {
+                                                "all": "全对得分",
+                                                "half": "少选半分",
+                                                "item": "按项算分"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "remarkers": ""
+                    },
+                    "form": {
+                        "87293": {
+                            "questionDataId": "87293",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        "87294": {
+                            "questionDataId": "87294",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        "87295": {
+                            "questionDataId": "87295",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "2",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        },
+                        "87296": {
+                            "questionDataId": "87296",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "3",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        }
+                    },
+                    "disable": {
+                        "attrTitle": [
+                            {
+                                "questionDataId": "87280",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "attrTitle",
+                                "pos": "0",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "判分规则",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "attrBlock": [
+                            {
+                                "questionDataId": "87281",
+                                "type": "block",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "attrBlock",
+                                "pos": "1",
+                                "enabled": false,
+                                "com": "",
+                                "params": {
+                                    "unique": "attrBlock:1"
+                                }
+                            }
+                        ],
+                        "stemTitle": [
+                            {
+                                "questionDataId": "87282",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "stemTitle",
+                                "pos": "2",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题描述",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "optionsTitle": [
+                            {
+                                "questionDataId": "87284",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "optionsTitle",
+                                "pos": "4",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题选项",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analyticalTitle": [
+                            {
+                                "questionDataId": "87289",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analyticalTitle",
+                                "pos": "9",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "答题解析",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analytical": [
+                            {
+                                "questionDataId": "87290",
+                                "type": "form",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analytical",
+                                "pos": "10",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "多选题"
+                                }
+                            }
+                        ],
+                        "ruleText": [
+                            {
+                                "questionDataId": "87291",
+                                "type": "text",
+                                "pKey": "attrBlock",
+                                "pPos": "0",
+                                "key": "ruleText",
+                                "pos": "0",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "readonly": true,
+                                    "value": ""
+                                }
+                            }
+                        ],
+                        "subSubRule": [
+                            {
+                                "questionDataId": "87292",
+                                "type": "form",
+                                "pKey": "attrBlock",
+                                "pPos": "0",
+                                "key": "subSubRule",
+                                "pos": "1",
+                                "enabled": false,
+                                "com": "select",
+                                "params": {
+                                    "value": [
+                                        "item"
+                                    ],
+                                    "options": {
+                                        "all": "全对得分",
+                                        "half": "少选半分",
+                                        "item": "按项算分"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "node": {
+                        "info": {
+                            "questionId": "6010",
+                            "type": "multipleChoice",
+                            "state": "1",
+                            "modified": "2016-03-29 10:41:27",
+                            "remarkers": ""
+                        },
+                        "data": {
+                            "stem": [
+                                {
+                                    "questionDataId": "87283",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "stem",
+                                    "pos": "3",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "hello（）（）12"
+                                    }
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "questionDataId": "87285",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "5",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:1"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87286",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "6",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:2"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87287",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "7",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:3"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87288",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "8",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:4"
+                                    }
+                                }
+                            ],
+                            "analyticalTitle": [
+                                {
+                                    "questionDataId": "87289",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analyticalTitle",
+                                    "pos": "9",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "答题解析",
+                                        "readonly": true
+                                    }
+                                }
+                            ],
+                            "analytical": [
+                                {
+                                    "questionDataId": "87290",
+                                    "type": "form",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analytical",
+                                    "pos": "10",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "多选题"
+                                    }
+                                }
+                            ],
+                            "option": [
+                                {
+                                    "questionDataId": "87293",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87294",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": true
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87295",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "2",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87296",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "3",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "input",
+                                    "params": {
+                                        "type": "checkbox",
+                                        "valueAttr": "",
+                                        "value": false
+                                    }
+                                }
+                            ],
+                            "synopsis": [
+                                {
+                                    "questionDataId": "87297",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "12"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87298",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "1",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "22"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87299",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "2",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "3"
+                                    }
+                                },
+                                {
+                                    "questionDataId": "87300",
+                                    "type": "text",
+                                    "pKey": "options",
+                                    "pPos": "3",
+                                    "key": "synopsis",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "4"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "6011": {
+                    "points": "10",
+                    "info": {
+                        "questionId": "6011",
+                        "type": "shortAnswer",
+                        "state": "1",
+                        "modified": "2016-04-21 10:46:57",
+                        "extra": {
+                            "load": {
+                                "+/exam/components/richtext/js/main.js": "js",
+                                "+/exam/questions/shortAnswer/css/show.css": "css"
+                            },
+                            "form": {
+                                "87307": {
+                                    "questionDataId": "87307",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "<p>lgd&nbsp;</p>"
+                                    }
+                                }
+                            },
+                            "disable": {
+                                "stemTitle": [
+                                    {
+                                        "questionDataId": "87301",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "stemTitle",
+                                        "pos": "0",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题描述",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "optionsTitle": [
+                                    {
+                                        "questionDataId": "87303",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "optionsTitle",
+                                        "pos": "2",
+                                        "enabled": false,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "试题答案",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analyticalTitle": [
+                                    {
+                                        "questionDataId": "87305",
+                                        "type": "text",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analyticalTitle",
+                                        "pos": "4",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "答题解析",
+                                            "readonly": true
+                                        }
+                                    }
+                                ],
+                                "analytical": [
+                                    {
+                                        "questionDataId": "87306",
+                                        "type": "form",
+                                        "pKey": "",
+                                        "pPos": "0",
+                                        "key": "analytical",
+                                        "pos": "5",
+                                        "enabled": null,
+                                        "com": "richtext",
+                                        "params": {
+                                            "value": "简答题123"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "remarkers": ""
+                    },
+                    "form": {
+                        "87307": {
+                            "questionDataId": "87307",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "<p>lgd&nbsp;</p>"
+                            }
+                        }
+                    },
+                    "disable": {
+                        "stemTitle": [
+                            {
+                                "questionDataId": "87301",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "stemTitle",
+                                "pos": "0",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题描述",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "optionsTitle": [
+                            {
+                                "questionDataId": "87303",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "optionsTitle",
+                                "pos": "2",
+                                "enabled": false,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "试题答案",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analyticalTitle": [
+                            {
+                                "questionDataId": "87305",
+                                "type": "text",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analyticalTitle",
+                                "pos": "4",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "答题解析",
+                                    "readonly": true
+                                }
+                            }
+                        ],
+                        "analytical": [
+                            {
+                                "questionDataId": "87306",
+                                "type": "form",
+                                "pKey": "",
+                                "pPos": "0",
+                                "key": "analytical",
+                                "pos": "5",
+                                "enabled": null,
+                                "com": "richtext",
+                                "params": {
+                                    "value": "简答题123"
+                                }
+                            }
+                        ]
+                    },
+                    "node": {
+                        "info": {
+                            "questionId": "6011",
+                            "type": "shortAnswer",
+                            "state": "1",
+                            "modified": "2016-04-21 10:46:57",
+                            "remarkers": ""
+                        },
+                        "data": {
+                            "stem": [
+                                {
+                                    "questionDataId": "87302",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "stem",
+                                    "pos": "1",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "hello________________________."
+                                    }
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "questionDataId": "87304",
+                                    "type": "block",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "options",
+                                    "pos": "3",
+                                    "enabled": true,
+                                    "com": "",
+                                    "params": {
+                                        "unique": "options:1"
+                                    }
+                                }
+                            ],
+                            "analyticalTitle": [
+                                {
+                                    "questionDataId": "87305",
+                                    "type": "text",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analyticalTitle",
+                                    "pos": "4",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "答题解析",
+                                        "readonly": true
+                                    }
+                                }
+                            ],
+                            "analytical": [
+                                {
+                                    "questionDataId": "87306",
+                                    "type": "form",
+                                    "pKey": "",
+                                    "pPos": "0",
+                                    "key": "analytical",
+                                    "pos": "5",
+                                    "enabled": null,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "简答题123"
+                                    }
+                                }
+                            ],
+                            "option": [
+                                {
+                                    "questionDataId": "87307",
+                                    "type": "form",
+                                    "pKey": "options",
+                                    "pPos": "0",
+                                    "key": "option",
+                                    "pos": "0",
+                                    "enabled": true,
+                                    "com": "richtext",
+                                    "params": {
+                                        "value": "<p>lgd&nbsp;</p>"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "examId": "285",
+        "examName": "ios",
+        "examPaperId": "3951",
+        "examPaperModified": "2016-05-19"
+    },
+    "data": [
+        {
+            "node": {
+                "info": {
+                    "questionId": "6011",
+                    "type": "shortAnswer",
+                    "state": "1",
+                    "modified": "2016-04-21 10:46:57",
+                    "remarkers": ""
+                },
+                "data": {
+                    "stem": [
+                        {
+                            "questionDataId": "87302",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "stem",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "hello________________________."
+                            }
+                        }
+                    ],
+                    "options": [
+                        {
+                            "questionDataId": "87304",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "3",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:1"
+                            }
+                        }
+                    ],
+                    "analyticalTitle": [
+                        {
+                            "questionDataId": "87305",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analyticalTitle",
+                            "pos": "4",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "答题解析",
+                                "readonly": true
+                            }
+                        }
+                    ],
+                    "analytical": [
+                        {
+                            "questionDataId": "87306",
+                            "type": "form",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analytical",
+                            "pos": "5",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "简答题123"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "questionDataId": "87307",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "<p>lgd&nbsp;</p>"
+                            }
+                        }
+                    ]
+                }
+            },
+            "points": "10",
+            "paperDataId": "2830",
+            "remarkers": ""
+        },
+        {
+            "node": {
+                "info": {
+                    "questionId": "6010",
+                    "type": "multipleChoice",
+                    "state": "1",
+                    "modified": "2016-03-29 10:41:27",
+                    "remarkers": ""
+                },
+                "data": {
+                    "stem": [
+                        {
+                            "questionDataId": "87283",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "stem",
+                            "pos": "3",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "hello（）（）12"
+                            }
+                        }
+                    ],
+                    "options": [
+                        {
+                            "questionDataId": "87285",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "5",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:1"
+                            }
+                        },
+                        {
+                            "questionDataId": "87286",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "6",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:2"
+                            }
+                        },
+                        {
+                            "questionDataId": "87287",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "7",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:3"
+                            }
+                        },
+                        {
+                            "questionDataId": "87288",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "8",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:4"
+                            }
+                        }
+                    ],
+                    "analyticalTitle": [
+                        {
+                            "questionDataId": "87289",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analyticalTitle",
+                            "pos": "9",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "答题解析",
+                                "readonly": true
+                            }
+                        }
+                    ],
+                    "analytical": [
+                        {
+                            "questionDataId": "87290",
+                            "type": "form",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analytical",
+                            "pos": "10",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "多选题"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "questionDataId": "87293",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        {
+                            "questionDataId": "87294",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        {
+                            "questionDataId": "87295",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "2",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        },
+                        {
+                            "questionDataId": "87296",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "3",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "checkbox",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        }
+                    ],
+                    "synopsis": [
+                        {
+                            "questionDataId": "87297",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "questionDataId": "87298",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "22"
+                            }
+                        },
+                        {
+                            "questionDataId": "87299",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "2",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "questionDataId": "87300",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "3",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "4"
+                            }
+                        }
+                    ]
+                }
+            },
+            "points": "10",
+            "paperDataId": "2831",
+            "remarkers": ""
+        },
+        {
+            "node": {
+                "info": {
+                    "questionId": "6009",
+                    "type": "fillBlankAnswer",
+                    "state": "1",
+                    "modified": "2016-01-29 13:33:40",
+                    "remarkers": ""
+                },
+                "data": {
+                    "stem": [
+                        {
+                            "questionDataId": "87271",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "stem",
+                            "pos": "3",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "hello({`text:1`})({`text:2`})"
+                            }
+                        }
+                    ],
+                    "options": [
+                        {
+                            "questionDataId": "101721",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "5",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:1"
+                            }
+                        },
+                        {
+                            "questionDataId": "101722",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "6",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:2"
+                            }
+                        }
+                    ],
+                    "analyticalTitle": [
+                        {
+                            "questionDataId": "87274",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analyticalTitle",
+                            "pos": "7",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "答题解析",
+                                "readonly": true
+                            }
+                        }
+                    ],
+                    "analytical": [
+                        {
+                            "questionDataId": "87275",
+                            "type": "form",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analytical",
+                            "pos": "8",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "aaa"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "questionDataId": "101723",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "input",
+                                "value": "lgd"
+                            }
+                        },
+                        {
+                            "questionDataId": "101724",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "input",
+                                "value": "lgd1"
+                            }
+                        }
+                    ]
+                }
+            },
+            "points": "10",
+            "paperDataId": "2832",
+            "remarkers": ""
+        },
+        {
+            "node": {
+                "info": {
+                    "questionId": "6008",
+                    "type": "binaryChoice",
+                    "state": "1",
+                    "modified": "2016-01-29 13:33:53",
+                    "remarkers": ""
+                },
+                "data": {
+                    "stem": [
+                        {
+                            "questionDataId": "87258",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "stem",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "hello"
+                            }
+                        }
+                    ],
+                    "options": [
+                        {
+                            "questionDataId": "87260",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "3",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:1"
+                            }
+                        },
+                        {
+                            "questionDataId": "87261",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "4",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:2"
+                            }
+                        }
+                    ],
+                    "analyticalTitle": [
+                        {
+                            "questionDataId": "87262",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analyticalTitle",
+                            "pos": "5",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "答题解析",
+                                "readonly": true
+                            }
+                        }
+                    ],
+                    "analytical": [
+                        {
+                            "questionDataId": "87263",
+                            "type": "form",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analytical",
+                            "pos": "6",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "aaa"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "questionDataId": "87264",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        {
+                            "questionDataId": "87265",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        }
+                    ],
+                    "synopsis": [
+                        {
+                            "questionDataId": "87266",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "对",
+                                "readonly": true
+                            }
+                        },
+                        {
+                            "questionDataId": "87267",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "错",
+                                "readonly": true
+                            }
+                        }
+                    ]
+                }
+            },
+            "points": "10",
+            "paperDataId": "2833",
+            "remarkers": ""
+        },
+        {
+            "node": {
+                "info": {
+                    "questionId": "6007",
+                    "type": "singleAnswer",
+                    "state": "1",
+                    "modified": "2016-03-21 18:00:50",
+                    "remarkers": ""
+                },
+                "data": {
+                    "stem": [
+                        {
+                            "questionDataId": "87241",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "stem",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "hello()"
+                            }
+                        }
+                    ],
+                    "options": [
+                        {
+                            "questionDataId": "87243",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "3",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:1"
+                            }
+                        },
+                        {
+                            "questionDataId": "87244",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "4",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:2"
+                            }
+                        },
+                        {
+                            "questionDataId": "87245",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "5",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:3"
+                            }
+                        },
+                        {
+                            "questionDataId": "87246",
+                            "type": "block",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "options",
+                            "pos": "6",
+                            "enabled": true,
+                            "com": "",
+                            "params": {
+                                "unique": "options:4"
+                            }
+                        }
+                    ],
+                    "analyticalTitle": [
+                        {
+                            "questionDataId": "87247",
+                            "type": "text",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analyticalTitle",
+                            "pos": "7",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "答题解析"
+                            }
+                        }
+                    ],
+                    "analytical": [
+                        {
+                            "questionDataId": "87248",
+                            "type": "form",
+                            "pKey": "",
+                            "pPos": "0",
+                            "key": "analytical",
+                            "pos": "8",
+                            "enabled": null,
+                            "com": "richtext",
+                            "params": {
+                                "value": "单选题"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "questionDataId": "87249",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": true
+                            }
+                        },
+                        {
+                            "questionDataId": "87250",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        },
+                        {
+                            "questionDataId": "87251",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "2",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        },
+                        {
+                            "questionDataId": "87252",
+                            "type": "form",
+                            "pKey": "options",
+                            "pPos": "3",
+                            "key": "option",
+                            "pos": "0",
+                            "enabled": true,
+                            "com": "input",
+                            "params": {
+                                "type": "radio",
+                                "valueAttr": "",
+                                "value": false
+                            }
+                        }
+                    ],
+                    "synopsis": [
+                        {
+                            "questionDataId": "87253",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "0",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "questionDataId": "87254",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "1",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "questionDataId": "87255",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "2",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "questionDataId": "87256",
+                            "type": "text",
+                            "pKey": "options",
+                            "pPos": "3",
+                            "key": "synopsis",
+                            "pos": "1",
+                            "enabled": true,
+                            "com": "richtext",
+                            "params": {
+                                "value": "4"
+                            }
+                        }
+                    ]
+                }
+            },
+            "points": "10",
+            "paperDataId": "2834",
+            "remarkers": ""
+        }
+    ],
+    "zipInfo": {
+        "examUpdateTime": "2016-04-28 10:12:18"
+    }
+}

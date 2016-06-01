@@ -1,0 +1,119 @@
+{
+    "examData": {
+        "data": {
+            "6009": {
+                "101723": {
+                    "params": {
+                        "value": "lgd"
+                    }
+                },
+                "101724": {
+                    "params": {
+                        "value": "lgd1"
+                    }
+                }
+            },
+            "6011": {
+                "87307": {
+                    "params": {
+                        "value": "µÚÒ»"
+                    }
+                }
+            },
+            "6008": {
+                "87265": {
+                    "params": {
+                        "value": false,
+                        "type": "radio",
+                        "valueAttr": ""
+                    }
+                },
+                "87264": {
+                    "params": {
+                        "value": true,
+                        "type": "radio",
+                        "valueAttr": ""
+                    }
+                }
+            },
+            "6007": {
+                "87251": {
+                    "params": {
+                        "value": false,
+                        "type": "radio",
+                        "valueAttr": ""
+                    }
+                },
+                "87249": {
+                    "params": {
+                        "value": true,
+                        "type": "radio",
+                        "valueAttr": ""
+                    }
+                },
+                "87250": {
+                    "params": {
+                        "value": false,
+                        "type": "radio",
+                        "valueAttr": ""
+                    }
+                },
+                "87252": {
+                    "params": {
+                        "value": false,
+                        "type": "radio",
+                        "valueAttr": ""
+                    }
+                }
+            },
+            "6010": {
+                "87296": {
+                    "params": {
+                        "value": false,
+                        "type": "checkbox",
+                        "valueAttr": ""
+                    }
+                },
+                "87293": {
+                    "params": {
+                        "value": true,
+                        "type": "checkbox",
+                        "valueAttr": ""
+                    }
+                },
+                "87294": {
+                    "params": {
+                        "value": true,
+                        "type": "checkbox",
+                        "valueAttr": ""
+                    }
+                },
+                "87295": {
+                    "params": {
+                        "value": false,
+                        "type": "checkbox",
+                        "valueAttr": ""
+                    }
+                }
+            }
+        },
+        "expand": {
+            "resultMateId": "1070"
+        },
+        "info": {
+            "paperId": "138",
+            "snapshotExpires": "",
+            "examPaperModified": "2016-05-20",
+            "userId": "4115",
+            "name": "ios",
+            "state": "1",
+            "showTime": "2016-05-20 16:26:38",
+            "examId": "285",
+            "points": "50",
+            "examName": "ios",
+            "examPaperId": "4023",
+            "modified": "2016-03-11 17:44:46",
+            "pass": "20"
+        }
+    }
+}

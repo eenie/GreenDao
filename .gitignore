@@ -6,3 +6,10 @@
 .DS_Store
 /build
 /captures
+libs/
+src/main/java/com/ssp/greendao/dao/Answer.java
+src/main/java/com/ssp/greendao/dao/AnswerDao.java
+src/main/java/com/ssp/greendao/dao/Option.java
+src/main/java/com/ssp/greendao/dao/OptionDao.java
+src/main/java/com/ssp/greendao/dao/Question.java
+src/main/java/com/ssp/greendao/dao/QuestionDao.java

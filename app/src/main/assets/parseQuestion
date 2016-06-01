@@ -1,0 +1,52 @@
+public static Question parseQuestionJson(JSONObject object) throws JSONException {
+        JSONObject node = object.getJSONObject("node");
+        JSONObject data = node.getJSONObject(Constants.JSON_DATA);
+        JSONObject info = node.getJSONObject("info");
+        Question question = new Question();
+
+
+        question.setId(info.getString("questionId"));
+        question.setType(info.getString("type"));
+        question.setScores(object.getInt("points"));
+        if (info.optJSONObject("extra") != null) {
+            JSONObject extra = info.getJSONObject("extra");
+            question.setRules(extra.getJSONObject("disable")
+                    .getJSONArray("subSubRule").getJSONObject(0).getJSONObject("params").getString("value"));
+        }
+        question.setAnalysis(data
+                .getJSONArray("analytical").getJSONObject(0).getJSONObject("params").getString("value"));
+        question.setTitle(data.getJSONArray("stem").getJSONObject(0).getJSONObject("params").getString("value"));
+        ArrayList<Option> optionList = new ArrayList<>();
+        if (question.getType().startsWith("f") || question.getType().startsWith("sh")) {
+            JSONArray catArray = data.getJSONArray("option");
+            int optionSize = catArray.length();
+            for (int j = 0; j < optionSize; j++) {
+                JSONObject cat = catArray.getJSONObject(j);
+                Option option = new Option();
+                option.setId(cat.getString("questionDataId"));
+                option.setQuestionId(question.getId());
+                optionList.add(option);
+            }
+            question.setOptionList(optionList);
+        } else {
+            if (data.optJSONArray("synopsis") != null && data.optJSONArray("option") != null) {
+                JSONArray optionArray = data.getJSONArray("synopsis");
+                JSONArray catArray = data.getJSONArray("option");
+                int optionSize = optionArray.length();
+                for (int j = 0; j < optionSize; j++) {
+                    JSONObject param = optionArray.getJSONObject(j);
+                    JSONObject cat = catArray.getJSONObject(j);
+                    Option option = new Option();
+                    option.setId(cat.getString("questionDataId"));
+                    option.setIndex(param.getInt("pPos"));
+                    option.setDesc(param.getJSONObject("params").getString("value"));
+                    option.setCorrect(cat.getJSONObject("params").getBoolean("value"));
+                    option.setQuestionId(question.getId());
+                    optionList.add(option);
+                }
+                question.setOptionList(optionList);
+            }
+        }
+
+        return question;
+    }

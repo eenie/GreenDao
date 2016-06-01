@@ -16,15 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StudentActivity" />
-        <activity android:name=".CourseActivity" />
-        <activity
-            android:name=".AddStuActivity"
-            android:theme="@style/DialogTheme" />
-        <activity
-            android:name=".AddCouseActivity"
-            android:theme="@style/DialogTheme"></activity>
-        <activity android:name=".SelCourseActivity"></activity>
     </application>
 
 </manifest>

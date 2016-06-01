@@ -13,7 +13,9 @@ public class Generator {
         Schema schema = new Schema(2, "com.ssp.greendao.dao");//1是数据库版本号，com.ssp.greendao.dao是自动生成的java类存放的包名，包括核心的DaoMaster,DaoSession等
 //        addNote(schema);
 //        addCustomerOrder(schema);
-        addStudentCourse(schema);
+//        addStudentCourse(schema);
+
+        addExamTable(schema);
 
 //        addExam(schema);
         new DaoGenerator().generateAll(schema, "./app/src/main/java");//DaoMaster,DaoSession等自动生成java类存放在app Model的src/main/java文件夹下
@@ -129,7 +131,7 @@ public class Generator {
 
         Entity question = schema.addEntity("Question");
         question.setTableName("Question");//Question表：问题表
-        Property queId = question.addIdProperty().autoincrement().getProperty();  //自增ID
+        question.addIdProperty().autoincrement().getProperty();  //自增ID
         question.addStringProperty("index");//顺序
         question.addStringProperty("record_id"); //所属record的id
         question.addStringProperty("question_id");//该question的id
@@ -142,10 +144,11 @@ public class Generator {
 
         Entity option = schema.addEntity("Option");
         option.setTableName("Option");//Option表：选项表
-        Property opId = option.addIdProperty().autoincrement().getProperty(); //自增ID
+        option.addIdProperty().autoincrement().getProperty(); //自增ID
         option.addStringProperty("index"); //顺序
         option.addStringProperty("option_id");//该option的ID
         option.addStringProperty("option_text");//option文本
+        Property queId = option.addLongProperty("question_id").getProperty();//option所属的question的id
 
         option.addToOne(question, queId);  //给Option添加question外键
         ToMany queOptions = option.addToMany(option, queId);
@@ -157,15 +160,11 @@ public class Generator {
         answer.addIdProperty().autoincrement();//自增ID
         answer.addStringProperty("correct_ans");//正确答案
         answer.addStringProperty("user_ans");//用户答案
+        Property quId = answer.addLongProperty("question_id").getProperty();
 
-        answer.addToOne(question, queId);  //给Answer添加question外键
-        ToMany queAnswers = answer.addToMany(answer, queId);
-        queOptions.setName("answers"); //设置函数名（ 通过getAnswers(queId)函数获得该问题下的所有Answer）
-
-
-
-
-
+        answer.addToOne(question, quId);  //给Answer添加question外键
+        ToMany queAnswers = answer.addToMany(answer, quId);
+        queAnswers.setName("answers"); //设置函数名（ 通过getAnswers(queId)函数获得该问题下的所有Answer）
 
 
     }
