@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.ssp.greendao.dao.CourseDao;
-import com.ssp.greendao.dao.Student;
 import com.ssp.greendao.dao.StudentDao;
 
 public class MainActivity extends AppCompatActivity {

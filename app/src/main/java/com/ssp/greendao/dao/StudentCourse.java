@@ -9,6 +9,7 @@ import de.greenrobot.dao.DaoException;
  */
 public class StudentCourse {
 
+    private Long id;
     private Long studentId;
     private Long courseId;
 
@@ -28,7 +29,12 @@ public class StudentCourse {
     public StudentCourse() {
     }
 
-    public StudentCourse(Long studentId, Long courseId) {
+    public StudentCourse(Long id) {
+        this.id = id;
+    }
+
+    public StudentCourse(Long id, Long studentId, Long courseId) {
+        this.id = id;
         this.studentId = studentId;
         this.courseId = courseId;
     }
@@ -37,6 +43,14 @@ public class StudentCourse {
     public void __setDaoSession(DaoSession daoSession) {
         this.daoSession = daoSession;
         myDao = daoSession != null ? daoSession.getStudentCourseDao() : null;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public Long getStudentId() {

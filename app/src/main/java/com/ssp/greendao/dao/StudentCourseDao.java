@@ -19,7 +19,7 @@ import com.ssp.greendao.dao.StudentCourse;
 /** 
  * DAO for table "STUDENT_COURSE".
 */
-public class StudentCourseDao extends AbstractDao<StudentCourse, Void> {
+public class StudentCourseDao extends AbstractDao<StudentCourse, Long> {
 
     public static final String TABLENAME = "STUDENT_COURSE";
 
@@ -28,8 +28,9 @@ public class StudentCourseDao extends AbstractDao<StudentCourse, Void> {
      * Can be used for QueryBuilder and for referencing column names.
     */
     public static class Properties {
-        public final static Property StudentId = new Property(0, Long.class, "studentId", false, "STUDENT_ID");
-        public final static Property CourseId = new Property(1, Long.class, "courseId", false, "COURSE_ID");
+        public final static Property Id = new Property(0, Long.class, "id", true, "_id");
+        public final static Property StudentId = new Property(1, Long.class, "studentId", false, "STUDENT_ID");
+        public final static Property CourseId = new Property(2, Long.class, "courseId", false, "COURSE_ID");
     };
 
     private DaoSession daoSession;
@@ -50,8 +51,9 @@ public class StudentCourseDao extends AbstractDao<StudentCourse, Void> {
     public static void createTable(SQLiteDatabase db, boolean ifNotExists) {
         String constraint = ifNotExists? "IF NOT EXISTS ": "";
         db.execSQL("CREATE TABLE " + constraint + "\"STUDENT_COURSE\" (" + //
-                "\"STUDENT_ID\" INTEGER," + // 0: studentId
-                "\"COURSE_ID\" INTEGER);"); // 1: courseId
+                "\"_id\" INTEGER PRIMARY KEY ," + // 0: id
+                "\"STUDENT_ID\" INTEGER," + // 1: studentId
+                "\"COURSE_ID\" INTEGER);"); // 2: courseId
     }
 
     /** Drops the underlying database table. */
@@ -65,14 +67,19 @@ public class StudentCourseDao extends AbstractDao<StudentCourse, Void> {
     protected void bindValues(SQLiteStatement stmt, StudentCourse entity) {
         stmt.clearBindings();
  
+        Long id = entity.getId();
+        if (id != null) {
+            stmt.bindLong(1, id);
+        }
+ 
         Long studentId = entity.getStudentId();
         if (studentId != null) {
-            stmt.bindLong(1, studentId);
+            stmt.bindLong(2, studentId);
         }
  
         Long courseId = entity.getCourseId();
         if (courseId != null) {
-            stmt.bindLong(2, courseId);
+            stmt.bindLong(3, courseId);
         }
     }
 
@@ -84,16 +91,17 @@ public class StudentCourseDao extends AbstractDao<StudentCourse, Void> {
 
     /** @inheritdoc */
     @Override
-    public Void readKey(Cursor cursor, int offset) {
-        return null;
+    public Long readKey(Cursor cursor, int offset) {
+        return cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0);
     }    
 
     /** @inheritdoc */
     @Override
     public StudentCourse readEntity(Cursor cursor, int offset) {
         StudentCourse entity = new StudentCourse( //
-            cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0), // studentId
-            cursor.isNull(offset + 1) ? null : cursor.getLong(offset + 1) // courseId
+            cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0), // id
+            cursor.isNull(offset + 1) ? null : cursor.getLong(offset + 1), // studentId
+            cursor.isNull(offset + 2) ? null : cursor.getLong(offset + 2) // courseId
         );
         return entity;
     }
@@ -101,21 +109,26 @@ public class StudentCourseDao extends AbstractDao<StudentCourse, Void> {
     /** @inheritdoc */
     @Override
     public void readEntity(Cursor cursor, StudentCourse entity, int offset) {
-        entity.setStudentId(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0));
-        entity.setCourseId(cursor.isNull(offset + 1) ? null : cursor.getLong(offset + 1));
+        entity.setId(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0));
+        entity.setStudentId(cursor.isNull(offset + 1) ? null : cursor.getLong(offset + 1));
+        entity.setCourseId(cursor.isNull(offset + 2) ? null : cursor.getLong(offset + 2));
      }
     
     /** @inheritdoc */
     @Override
-    protected Void updateKeyAfterInsert(StudentCourse entity, long rowId) {
-        // Unsupported or missing PK type
-        return null;
+    protected Long updateKeyAfterInsert(StudentCourse entity, long rowId) {
+        entity.setId(rowId);
+        return rowId;
     }
     
     /** @inheritdoc */
     @Override
-    public Void getKey(StudentCourse entity) {
-        return null;
+    public Long getKey(StudentCourse entity) {
+        if(entity != null) {
+            return entity.getId();
+        } else {
+            return null;
+        }
     }
 
     /** @inheritdoc */

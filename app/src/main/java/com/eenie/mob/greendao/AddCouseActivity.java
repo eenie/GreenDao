@@ -1,18 +1,14 @@
 package com.eenie.mob.greendao;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 
 import com.ssp.greendao.dao.Course;
 import com.ssp.greendao.dao.CourseDao;
-import com.ssp.greendao.dao.Student;
-import com.ssp.greendao.dao.StudentDao;
 
 public class AddCouseActivity extends AppCompatActivity {
 

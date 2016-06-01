@@ -13,7 +13,6 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.ssp.greendao.dao.Student;
@@ -53,7 +52,6 @@ public class StudentActivity extends AppCompatActivity {
         stuList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
                 Intent i = new Intent(mContext, SelCourseActivity.class);
                 i.putExtra("stu", students.get(position).getId());
                 startActivity(i);

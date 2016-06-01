@@ -53,6 +53,8 @@ public class Generator {
         ToMany customerToOrders = customer.addToMany(order, customerId);//1对多关系，一个Customer顾客可以有多个Order订单，一个Order订单只属于一个Customer顾客
         customerToOrders.setName("orders");//设置Api的名称 getOrders()
         customerToOrders.orderAsc(orderDate);//设置查询结果按时间进行升序排序
+
+
     }
 
     /**
@@ -71,6 +73,7 @@ public class Generator {
         course.addStringProperty("courseName").notNull();
 
         Entity studentCourse = schema.addEntity("StudentCourse");//中间表用于关联学生表和课程表
+        studentCourse.addIdProperty();
         Property studentId = studentCourse.addLongProperty("studentId").getProperty();
         Property courseId = studentCourse.addLongProperty("courseId").getProperty();
 
@@ -118,6 +121,49 @@ public class Generator {
 
         user.addToMany(userExam, userId);
         exam.addToMany(userExam, examId);
+
+    }
+
+
+    public static void addExamTable(Schema schema) {
+
+        Entity question = schema.addEntity("Question");
+        question.setTableName("Question");//Question表：问题表
+        Property queId = question.addIdProperty().autoincrement().getProperty();  //自增ID
+        question.addStringProperty("index");//顺序
+        question.addStringProperty("record_id"); //所属record的id
+        question.addStringProperty("question_id");//该question的id
+        question.addStringProperty("question_text");//question的文本内容
+        question.addStringProperty("question_type");//question的类型
+        question.addStringProperty("question_score");//question的分数
+        question.addBooleanProperty("isCheck");//question是否被标记
+        question.addBooleanProperty("isCorrect");//question是否回答正确
+        question.addStringProperty("analysis");//question的解析
+
+        Entity option = schema.addEntity("Option");
+        option.setTableName("Option");//Option表：选项表
+        Property opId = option.addIdProperty().autoincrement().getProperty(); //自增ID
+        option.addStringProperty("index"); //顺序
+        option.addStringProperty("option_id");//该option的ID
+        option.addStringProperty("option_text");//option文本
+
+        option.addToOne(question, queId);  //给Option添加question外键
+        ToMany queOptions = option.addToMany(option, queId);
+        queOptions.setName("options"); //设置函数名（ 通过getOptions(queId)函数获得该问题下的所有option）
+
+        Entity answer = schema.addEntity("Answer");
+        answer.setTableName("Answer");//回答表（包括用户答案、正确答案）
+        answer.addStringProperty("option_id");
+        answer.addIdProperty().autoincrement();//自增ID
+        answer.addStringProperty("correct_ans");//正确答案
+        answer.addStringProperty("user_ans");//用户答案
+
+        answer.addToOne(question, queId);  //给Answer添加question外键
+        ToMany queAnswers = answer.addToMany(answer, queId);
+        queOptions.setName("answers"); //设置函数名（ 通过getAnswers(queId)函数获得该问题下的所有Answer）
+
+
+
 
 
 

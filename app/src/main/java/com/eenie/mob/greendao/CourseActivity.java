@@ -2,7 +2,6 @@ package com.eenie.mob.greendao;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -16,8 +15,6 @@ import android.widget.TextView;
 
 import com.ssp.greendao.dao.Course;
 import com.ssp.greendao.dao.CourseDao;
-import com.ssp.greendao.dao.Student;
-import com.ssp.greendao.dao.StudentDao;
 
 import java.util.ArrayList;
 import java.util.List;
